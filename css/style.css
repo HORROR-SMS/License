@@ -1,0 +1,76 @@
+* {
+    font-family: "sans-serif", Arial;
+}
+
+*::selection {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+*::-moz-selection {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+
+header {
+    position: relative;
+    margin-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(204, 204, 204);
+    color: #000000;
+    display: block;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+header h1 {
+    font-size: 25px;
+}
+
+div.legal {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+div.legal h2 {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+div.legal h3 {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22.5px;
+}
+
+div.legal p {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+div.legal p.tab {
+    position: relative;
+    padding-left: 25px;
+}
